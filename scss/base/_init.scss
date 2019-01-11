@@ -1,0 +1,395 @@
+@import "../functions";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+//button, .button {
+//    padding:  0.5rem 1rem;
+//}
+
+//scroll
+.scroll-top {
+    background-color: $primary-color;
+    border-radius: 4px;
+    bottom: 1.5rem;
+    display: none;
+    height: 40px;
+    position: fixed;
+    right: 2rem;
+    text-align: center;
+    width: 40px;
+}
+
+.fi-arrow-up::before {
+    content: "";
+}
+.scroll-top i {
+    color: #ffffff;
+    font-size: 1.7rem;
+    //    margin: 0 0 2.5rem 0;
+    padding: 0;
+}
+
+//Vyer
+.view-footer{
+    margin-top: 1rem;
+    text-align: center; 
+}
+
+//main Form\
+
+#edit-field-art-und-form-field-antal-und-0-value,
+#edit-field-art-und-entities-0-form-field-antal-und-0-value{
+    width: 50px;
+}
+.form-item-field-art-und-entities-0-form-field-metod-und,
+#edit-field-art-und-form-field-metod{
+    margin-bottom: 1rem;
+}
+#fynden-node-form legend,
+#fynden-node-form label{
+    font-weight: 600;
+    color: $nyaarter-orange;
+}
+#fynden-node-form .form-radios label{
+    color: $jet;
+}
+#edit-field-art-und-form .fieldset-wrapper div{
+    margin-bottom: 1rem;
+}
+/*OVERRIDES*/
+
+.fieldset-wrapper .has-tip{
+	display: none;
+}
+
+label[for=edit-field-strandkrabba-hona-und-0-value],
+label[for=edit-field-strandkrabba-hane-und-0-value],
+label[for=edit-field-bl-krabbor-und-0-value],
+label[for=edit-field-st-rsta-krabban-und-0-value],
+label[for=edit-field-tid-i-vattnet-und-0-value]{
+	display: inline-block;
+	width: 210px;
+}
+#edit-field-strandkrabba-hona-und-0-value,
+#edit-field-strandkrabba-hane-und-0-value,
+#edit-field-bl-krabbor-und-0-value,
+#edit-field-st-rsta-krabban-und-0-value,
+#edit-field-tid-i-vattnet-und-0-value{
+	display: inline-block;
+	width: 70px;
+	/*text-align: right;*/
+}
+
+.node-form #edit-submit{
+	width: 100%;
+}
+
+fieldset.date-combo .container-inline-date .date-padding {
+    padding: 0 10px 0 0;
+}
+.container-inline-date .form-item input, .container-inline-date .form-item select, .container-inline-date .form-item option {
+    margin-right: 5px;
+	margin-bottom: 0;
+}
+.page-node-add-fynden #page-title{
+	display: none;
+}
+
+.field-type-entityreference thead{
+	display: none;
+}
+.field-type-entityreference ul{
+	margin: 0;
+	padding: 0;
+}
+.field-type-entityreference ul li{
+	list-style-type: none;
+}
+.tabledrag-toggle-weight-wrapper{
+	display: none;
+}
+.ief-tabledrag-handle{
+	display: none;
+}
+.field-type-entityreference .form-submit{
+	/*padding: 0.4rem 0.4rem;*/
+	/*margin:  0;*/
+	/*font-size: 0.75rem;*/
+}
+.field-type-entityreference table tr td, .field-type-entityreference ul li{
+	font-size: 0.9rem;
+	line-height: 2rem;
+	color: $nyaarter-text-gray; 
+}
+.field-type-entityreference table tr td{
+	padding-right: 4px;
+	padding-left: 0;
+}
+.field-type-entityreference tr.even, tr.odd{
+	background: none;
+	/*border-left: none;
+	border-right: none;*/
+	
+}
+.field-type-entityreference table{
+	width: 100%;
+	border: none;
+}
+.field-type-entityreference table tr{
+	border: none;
+	border-bottom: 1px solid #dddddd;
+}
+.button.secondary a{
+	color: $white;
+}
+
+
+input[type="file"], input[type="checkbox"], input[type="radio"], select {
+    margin: 0 !important;
+}
+#edit-field-projekt{
+	margin-bottom: 2rem !important ;
+}
+/////// END OVERRIDES  ////////////////////////////
+.page-user .button-group{
+//	display: none;
+}
+
+.l-header, .l-main, .l-messages{
+	background: $white;
+}
+.l-main{
+	margin-bottom: 2rem;
+//    margin-top: 55px; Denna behövs vid sticky meny
+}
+.l-featured{
+	/*background: $nyaarter-featured-gray;*/
+//	background: $nyaarter-featured-gray url('../images/krabba1.jpg') no-repeat center top;	
+//	background-size: cover;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	
+}
+.l-main .block-views .column{
+	padding-left: 0;
+}
+.l-main .main .column{
+	padding-left: 0;
+}
+.l-featured section{
+	margin-bottom: 2rem;
+}
+.l-featured h2{
+	color: $white;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.l-messages{
+	margin-top: 1rem;
+}
+.navigation-top-bar{
+//	background: $navigation-top-color;
+    background: url(../images/smal-bakgrund-green.jpg) center top;
+	width: 100%;
+	height: 50px;
+    padding: 3px;
+//    position: fixed;
+//    top: 0;
+    z-index: 999999;
+    .inner{
+        max-width: 61.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.image-widget .form-file{
+	margin-bottom: 1rem;
+	padding-bottom: 2rem !important;
+}
+.form-item{
+	margin: 0;
+}
+
+.navigation-top-bar-menu-button{
+	display: inline-block;
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	width: 40px;
+	background: $navigation-top-color-nav-button;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+.navigation-top-bar-menu-button a{
+	color: $white;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+    
+}
+.navigation-top-bar .logo{
+	display: inline-block;
+    
+	
+}
+.navigation-top-bar .sidtitel{
+//	display: inline-block;
+    margin-left: 2rem;
+//    height: 50px;
+//    display: block;
+    float: left;
+    line-height: 2.8rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+.navigation-top-bar .sidtitel a{
+	color: $white;
+}
+/*Footer columns*/
+.l-footer-columns{
+	/*background: $footer;*/
+	color: $white;
+	/*max-width: 100rem;*/
+	/*width: 100%;*/
+	padding-top: 1rem;
+}
+.l-footer-columns p, .l-footer-columns{
+	font-size: 0.8rem;
+}
+.l-footer-columns .block-title{
+	color: $white;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+/*Footer bottom*/
+.l-footer{
+	background: $footer;
+	color: $white;
+	/*max-width: 100rem;*/
+	
+}
+.l-footer.bottom{
+	background: $black;
+}
+.footer, .footer p{
+	text-align: center;
+	font-size: 0.7rem;
+}
+/*=======================*/
+
+/*Footer menu\*/
+.l-footer-columns ul.menu{
+	margin: 0;
+}
+.l-footer-columns ul.menu li{
+	list-style-type: none;
+	border-bottom: 1px dotted #969696;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	padding-left: 0.6rem;
+}
+.l-footer-columns ul.menu li.last{
+	border-bottom: none;
+}
+.l-footer-columns ul.menu li a{
+	color: $nyaarter-light-gray;
+	font-size: 0.9rem;
+}
+
+// ======== Specialgrejer för formulären ======= //
+// Fynd
+.field-name-field-art{ 
+  .form-type-managed-file{
+    margin-bottom: 0;
+    .description{
+      display: none;
+    }
+    .form-submit{
+      border-radius: 3px;
+      background-color: #fff;
+      border: 1px solid #000;
+      color: #000;
+    }
+  }
+  .field-type-image{
+//    border-bottom: 1px $black dotted;
+//    border-top: 1px $black dotted;
+//    padding-left: 1rem;
+  }
+  .form-submit{
+    border-radius: 3px;
+    background-color: $nyaarter-orange;
+  }
+  .image-widget .form-file{
+    padding-bottom: 1rem !important;
+  }
+}
+
+// Arter
+.field-name-field-bild-art{ 
+  .form-type-managed-file{
+    margin-bottom: 0;
+    .description{
+      display: none;
+    }
+    .form-submit{
+      border-radius: 3px;
+      background-color: #fff;
+      border: 1px solid #000;
+      color: #000;
+    }
+  }
+  .field-type-image{
+    //    border-bottom: 1px $black dotted;
+    //    border-top: 1px $black dotted;
+    //    padding-left: 1rem;
+  }
+  .form-submit{
+    border-radius: 3px;
+    background-color: $nyaarter-orange;
+  }
+  .image-widget .form-file{
+    padding-bottom: 1rem !important;
+  }
+  
+}
+#arter-node-form{
+  .form-wrapper{
+    margin-bottom: 1rem;
+  }
+  #edit-field-antal-und-0-value{
+    width: 3rem; 
+  }
+  
+}
+@media only screen and (min-width: 20.063em) and (max-width: 64em) { 
+  #arter-node-form{
+    width: 100%;
+  }
+} 
+
+@media only screen and (min-width: 64.063em) { 
+  #arter-node-form{
+    width: 400px;
+  }
+} 
+
+.node-arter{
+  .getlocations_fields_lat_wrapper_themed{
+    float: none;
+  }
+  .getlocations_fields_lon_wrapper_themed{
+    float: none;
+  }
+  .vcard{
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+    
+  }
+  br{
+    display: none;
+  }
+}
