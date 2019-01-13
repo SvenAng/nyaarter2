@@ -4653,7 +4653,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   font-family: inherit;
   border-style: solid;
   border-width: 1px;
-  border-color: #5e8d56;
+  border-color: #007ad8;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
@@ -4795,7 +4795,7 @@ select {
   background-repeat: no-repeat;
   border-style: solid;
   border-width: 1px;
-  border-color: #5e8d56;
+  border-color: #007ad8;
   padding: 0.5rem;
   font-size: 0.875rem;
   font-family: "Source Sans Pro", sans-serif;
@@ -5332,7 +5332,7 @@ label.error {
 /*Mobile menu\*/
 /* line 115, ../scss/components/_monoclickmenu.scss */
 #main-navigation {
-  background: #5e8d56;
+  background: #007ad8;
   height: 100%;
   opacity: 0;
   overflow-y: auto;
@@ -10068,7 +10068,7 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 
 /* line 189, ../scss/base/_init.scss */
 .navigation-top-bar {
-  background: url(../images/smal-bakgrund-green.jpg) center top;
+  background: url(../images/smal-bakgrund-1.jpg) center top;
   width: 100%;
   height: 50px;
   padding: 3px;
@@ -10337,3 +10337,5 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 .inline > li > * {
   display: block;
 }
+
+/*# sourceMappingURL=nyaarter2.css.map */
